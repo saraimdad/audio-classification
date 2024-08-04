@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1722767743197
+current_stage: None
+description: null
+last_updated_timestamp: 1722767743197
+name: modelv1.1
+run_id: 4d06903a9edb4364b60fcfafb617ca46
+run_link: null
+source: file:///C:/Users/SaraImdad/Desktop/audio-classification/mlruns/0/4d06903a9edb4364b60fcfafb617ca46/artifacts/artifacts\models\trained.keras
+status: READY
+status_message: null
+storage_location: file:///C:/Users/SaraImdad/Desktop/audio-classification/mlruns/0/4d06903a9edb4364b60fcfafb617ca46/artifacts/artifacts\models\trained.keras
+user_id: null
+version: 4

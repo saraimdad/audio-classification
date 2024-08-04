@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/SaraImdad/Desktop/audio-classification/mlruns/0/09239090739d4bd896326fec11ed1ce2/artifacts
+deleted_time: 1722767610828
+end_time: 1722766572207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 09239090739d4bd896326fec11ed1ce2
+run_name: beautiful-wren-198
+run_uuid: 09239090739d4bd896326fec11ed1ce2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722766506697
+status: 4
+tags: []
+user_id: SaraImdad

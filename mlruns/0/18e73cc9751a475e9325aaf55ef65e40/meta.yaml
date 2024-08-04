@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/SaraImdad/Desktop/audio-classification/mlruns/0/18e73cc9751a475e9325aaf55ef65e40/artifacts
+deleted_time: 1722767610840
+end_time: 1722766885945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 18e73cc9751a475e9325aaf55ef65e40
+run_name: defiant-bug-660
+run_uuid: 18e73cc9751a475e9325aaf55ef65e40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722766803410
+status: 4
+tags: []
+user_id: SaraImdad

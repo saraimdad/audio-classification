@@ -15,14 +15,14 @@ class TrainPipeline:
     def train(self):
         try:
             logging.info('TRAINING PIPELINE INITIATED')
-            ingestion = DataIngestion()
-            data_path = ingestion.initiate_data_ingestion()
+            # ingestion = DataIngestion()
+            # data_path = ingestion.initiate_data_ingestion()
 
             # data_path = os.path.join('artifacts', 'data')
-            transformation = DataTransformation()
-            transformed_path = transformation.initiate_data_transformation(data_path)
+            # transformation = DataTransformation()
+            # transformed_path = transformation.initiate_data_transformation(data_path)
 
-            # transformed_path = os.path.join('artifacts', 'transformed_data', 'transformed_data.csv')
+            transformed_path = os.path.join('artifacts', 'transformed_data', 'transformed_data.csv')
 
             prepare = PrepareModel()
             model = prepare.initiate_model_preparation()
@@ -37,3 +37,8 @@ class TrainPipeline:
         
         except Exception as e:
             raise CustomException(e, sys)
+        
+
+if __name__=='__main__':
+    train = TrainPipeline()
+    train.train()

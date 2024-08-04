@@ -9,7 +9,7 @@ from src.utils import extract_zip_file
 
 @dataclass
 class DataIngestionConfig:
-    data_path: str = os.path.join('artifacts', 'data')
+    data_path: str
 
 
 class DataIngestion():

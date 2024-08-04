@@ -1,0 +1,10 @@
+artifacts/data/*
+
+
+*.csv
+
+
+logs/
+
+
+*.log

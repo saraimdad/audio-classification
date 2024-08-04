@@ -25,8 +25,9 @@ class PredictPipeline:
             pred_class = np.argmax(pred)
 
             label = encoder.inverse_transform([pred_class])
+            label = label[0].replace('_', ' ').title()
 
-            return label[0]
+            return label
         
         except Exception as e:
             raise CustomException(e, sys)
